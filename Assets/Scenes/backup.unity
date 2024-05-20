@@ -125,73 +125,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1489823163422216612, guid: 85f3608b8c8a73040882f487c2a0b45c, type: 3}
   m_PrefabInstance: {fileID: 2231257184404038907}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &247836376
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 872.0596
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 18.3891
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 834.23193
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!1 &264058211
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,73 +156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 972139734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &358644900
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1104.8163
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 70.74748
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 866.23206
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!1 &363934042
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,140 +274,6 @@ Transform:
   - {fileID: 605353021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &416707642
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 733.6888
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.24742
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 756.26227
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
---- !u!1001 &444585302
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 617.42444
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 100.20636
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1134.5922
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!1 &524313560
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,73 +608,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &752409302
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1133.2123
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 92.84041
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1010.60175
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!1 &850285222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e4f65a2ab948044690b630bab4d93ce, type: 3}
@@ -1137,7 +802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1120.85
+      value: 1102.07
       objectReference: {fileID: 0}
     - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1145,7 +810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 815.3574
+      value: 811.2
       objectReference: {fileID: 0}
     - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1175,10 +840,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5051832534171869950, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
+      propertyPath: m_Speed
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 7440202566698997025, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
       propertyPath: anim
       value: 
       objectReference: {fileID: 537693670}
+    - target: {fileID: 7440202566698997025, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
+      propertyPath: attackRange
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1357,73 +1030,6 @@ MonoBehaviour:
   mouseSesnitivityY: 450
   mouseSesnitivityX: 450
   playerBody: {fileID: 972139734}
---- !u!1001 &970409711
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 741.6164
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 100.156555
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1161.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!1 &972139732
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,140 +1748,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1901190715
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 958.6857
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 19.247057
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 693.7531
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
---- !u!1001 &1915883200
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 828297290546202532, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftHandMiddle3'\n\tand
-        more ...\n\tFrom animation clip 'mixamo.com'"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777767257035393313, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_Name
-      value: clowny@Idle (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 717.88934
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 19.28098
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 503.9972
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298689051095077787, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0fd6e6d33632b464abf5c983b30300e3, type: 3}
 --- !u!4 &1922686748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5638575031324244170, guid: ab0cc4a2a68db8340a3b146dd11b87bd, type: 3}
@@ -2514,12 +1986,4 @@ SceneRoots:
   - {fileID: 735991192}
   - {fileID: 416249141}
   - {fileID: 850778135}
-  - {fileID: 247836376}
-  - {fileID: 416707642}
-  - {fileID: 1915883200}
-  - {fileID: 1901190715}
-  - {fileID: 358644900}
-  - {fileID: 752409302}
-  - {fileID: 970409711}
-  - {fileID: 444585302}
   - {fileID: 884594716}
