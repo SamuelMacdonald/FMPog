@@ -13,8 +13,13 @@ public class enemy : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
-
+    public NavMeshAgent nav;
     public Animator anim;
+    public void Start()
+    {
+       NavMeshAgent nav = GetComponent<NavMeshAgent>();  
+    }
+
 
     //Patroling
     public Vector3 walkPoint;
@@ -56,6 +61,7 @@ public class enemy : MonoBehaviour
     }
     private void Patroling()
     {
+        nav.speed = 8;
         if (!walkPointSet) SearchWalkPoint();
         {
             agent.SetDestination(walkPoint);
@@ -85,6 +91,7 @@ public class enemy : MonoBehaviour
     {
         agent.SetDestination(player.position);
         anim.SetBool("Attack", false);
+        nav.speed = 10;
         //  anim.SetBool("Run", true);
     }
 
@@ -93,7 +100,8 @@ public class enemy : MonoBehaviour
 
         //Attack code goes here
        anim.SetBool("Attack", true);
-
+        
+        
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);

@@ -6,6 +6,7 @@ public class gun : MonoBehaviour
     public float damage = 10;
     public float range = 100f;
     public float fireRate = 100f;
+    public ParticleSystem Muzzle;
 
     public Camera fpsCam;
     private float nextTimeToFire = 0f;
@@ -15,8 +16,12 @@ public class gun : MonoBehaviour
         {
             nextTimeToFire = Time.time + 1f/fireRate;
             Shoot();
+            Muzzle.Play();
+            
         }
     }
+    
+    
 
 
     public void Shoot()
