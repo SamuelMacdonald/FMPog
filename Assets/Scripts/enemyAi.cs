@@ -15,6 +15,9 @@ public class enemy : MonoBehaviour
     public float health;
     public NavMeshAgent nav;
     public Animator anim;
+    public AudioSource crawl;
+    public AudioSource scream;
+
     public void Start()
     {
        NavMeshAgent nav = GetComponent<NavMeshAgent>();  
@@ -47,16 +50,19 @@ public class enemy : MonoBehaviour
         if (!playerInSightRange && !playerInAttackRange)
         {
             Patroling();
+            
         }
 
         if (playerInSightRange && !playerInAttackRange)
         {
             ChasePlayer();
+            
         }
 
         if (playerInSightRange && playerInAttackRange)
         {
             AttackPlayer();
+            
         }
     }
     private void Patroling()
@@ -73,6 +79,7 @@ public class enemy : MonoBehaviour
         {
             walkPointSet = false;
         }
+        crawl.Play();
     }
     private void SearchWalkPoint()
     {
@@ -92,7 +99,8 @@ public class enemy : MonoBehaviour
         agent.SetDestination(player.position);
         anim.SetBool("Attack", false);
         nav.speed = 10;
-        //  anim.SetBool("Run", true);
+        crawl.Play();
+
     }
 
     private void AttackPlayer()

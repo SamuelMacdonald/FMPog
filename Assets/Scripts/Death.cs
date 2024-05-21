@@ -19,7 +19,7 @@ public class Death : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "enemy")
+        if (collider.gameObject.tag == "player")
         {
             SceneManager.LoadScene("backup");
         }
