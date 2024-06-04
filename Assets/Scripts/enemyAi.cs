@@ -13,14 +13,17 @@ public class enemy : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
-    public NavMeshAgent nav;
     public Animator anim;
     public AudioSource crawl;
+    public AudioClip clip;
     public AudioSource scream;
 
+    bool soundcool = false;
+    bool walkSound = false;
     public void Start()
     {
-       NavMeshAgent nav = GetComponent<NavMeshAgent>();  
+       NavMeshAgent nav = GetComponent<NavMeshAgent>();
+        
     }
 
 
@@ -44,6 +47,7 @@ public class enemy : MonoBehaviour
 
     private void Update()
     {
+       
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
@@ -57,6 +61,7 @@ public class enemy : MonoBehaviour
         {
             ChasePlayer();
             
+
         }
 
         if (playerInSightRange && playerInAttackRange)
@@ -67,7 +72,7 @@ public class enemy : MonoBehaviour
     }
     private void Patroling()
     {
-        nav.speed = 8;
+        agent.speed = 8;
         if (!walkPointSet) SearchWalkPoint();
         {
             agent.SetDestination(walkPoint);
@@ -79,10 +84,12 @@ public class enemy : MonoBehaviour
         {
             walkPointSet = false;
         }
-        crawl.Play();
+        
+
     }
     private void SearchWalkPoint()
     {
+        soundcool = false;
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
       //  anim.SetBool("Run", false);
@@ -98,14 +105,19 @@ public class enemy : MonoBehaviour
     {
         agent.SetDestination(player.position);
         anim.SetBool("Attack", false);
-        nav.speed = 10;
-        crawl.Play();
+        agent.speed = 10;
+        if (soundcool == false)
+        {
+            scream.Play();
+            soundcool = true;
+        }
+
 
     }
 
     private void AttackPlayer()
     {
-
+        soundcool = false;
         //Attack code goes here
        anim.SetBool("Attack", true);
         
@@ -130,6 +142,7 @@ public class enemy : MonoBehaviour
     private void DestroyEnemy()
     {
         Destroy(gameObject);
+
     }
 
 
@@ -140,4 +153,11 @@ public class enemy : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(transform.position, attackRange);
     }
+
+    public void Crawling()
+    {
+        crawl.Play();
+        
+    }
+    
 }

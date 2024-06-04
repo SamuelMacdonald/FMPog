@@ -14,12 +14,20 @@ public class FirstPerson : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!pauseMenu.GameIsPaused)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None; 
+        }
         float mouseX = Input.GetAxis("Mouse X") * mouseSesnitivityX * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSesnitivityY * Time.deltaTime;
 
